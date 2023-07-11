@@ -1,19 +1,19 @@
-import Pepperoni from "../assets/pepperoni.jpg";
-import Margherita from "../assets/margherita.jpg";
+import Shirt from "../assets/PSGshirt.png";
 import PedroTechSpecial from "../assets/pedrotechspecial.jpg";
 import Vegan from "../assets/vegan.jpg";
 import Pineapple from "../assets/pineapple.jpg";
 import Expensive from "../assets/expensive.jpg";
+import ManchesterUnited from "../assets/ManchesterUnited.png"
 
 export const MenuList = [
   {
-    name: "Pepperoni Pizza",
-    image: Pepperoni,
+    name: "Sports Shirt",
+    image: Shirt,
     price: 15.99,
   },
   {
-    name: "Margherita Pizza",
-    image: Margherita,
+    name: "UnitedShirt",
+    image: ManchesterUnited,
     price: 11.99,
   },
   {

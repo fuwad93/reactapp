@@ -1,25 +1,28 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import BannerImage from "../assets/PSGshirt.png";
-import BannerImage2 from "../Assets/ManchesterUnited.png"
+import logo from "../assets/logo.png";
+import backgroundImage from "../assets/BACKGROUNDIMAGE.jpg"
 import "../styles/Home.css";
 
 function Home() {
   return (
     (
-    <div classname="home" style={{ backgroundImage: `url(${BannerImage})` }}>
-        <div classname="home" style={{ backgroundImage: `url(${BannerImage2})` }}></div>
+    <div classname="home" style={{ logo: `url(${logo})` }}>
+        <div classname="home" style={{ backgroundImage: `url(${backgroundImage})` }}></div>
       <div className="headerContainer">
+      function (){
+       backgroundImage 
+      }
         <h1> D1 CLOTHING </h1>
         <p> STAY WINNING</p>
         <Link to="/menu">
-          <button> BUY NOW </button>
+          <button> COP NOW </button>
         </Link>
       </div>
     </div>
     )
     
   );}
-{"}"}
+
 
 export default Home;
